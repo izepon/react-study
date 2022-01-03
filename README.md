@@ -1,22 +1,18 @@
 # Repositório sobre meus estudos de ReactJS
 
-Direitos reservados: [Facebook](https://github.com/facebook/create-react-app).
+Data fetch recursos usados nesse estudo:
 
-## Configuração básica
+Site para simular API:
+https://jsonplaceholder.typicode.com/
 
-Rodar projeto:
+Script de post:
+https://jsonplaceholder.typicode.com/posts
 
-### `npm start`
+Script de fotos:
+https://jsonplaceholder.typicode.com/photos
 
-Projeto executa em modo desenvolvimento abrindo no navegador: [http://localhost:3000](http://localhost:3000)
-
-### `npm test`
-
-Executa testes.
-
-### `npm run build`
-
-Build o projeto.
+Site sobre Fetch API JS:
+https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API
 
 ## Em desenvolvimento!
 
