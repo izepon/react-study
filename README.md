@@ -8,7 +8,7 @@ Rodar projeto:
 
 ### `npm start`
 
-Projetp executa em modo desenvolvimento abrindo no navegador: [http://localhost:3000](http://localhost:3000)
+Projeto executa em modo desenvolvimento abrindo no navegador: [http://localhost:3000](http://localhost:3000)
 
 ### `npm test`
 
