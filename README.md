@@ -18,11 +18,7 @@ Executa testes.
 
 Build o projeto.
 
-## Em desenvolvimento!
-
-Esse repositório está em constante atualização conforme avanço nos estudos.
-
-Estudos React em andamento:
+## Plano de Estudos React em andamento:
 
 - [x] Lifecycle methods (03/01/2021)
 - [x] [Data fetch e consumo de API publica (04/01/2021)](/../../tree/01-Estudos-Data-Fetch)
