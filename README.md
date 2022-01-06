@@ -20,6 +20,6 @@ Build o projeto.
 
 ## Plano de Estudos React em andamento:
 
-- [x] Lifecycle methods (03/01/2021)
+- [x] Lifecycle methods (03/01/2022)
 - [x] [Data fetch e consumo de API publica (04/01/2022)](/../../tree/01-Estudos-Data-Fetch)
 - [ ] [Props e organização componentes (05/01/2022)](/../../tree/02-Estudo-Props-e-organização-de-componentes)
