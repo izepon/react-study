@@ -1,19 +1,19 @@
-import { Component } from "react";
+import { Component } from 'react';
 
-import "./styles.css";
+import './styles.css';
 
-import { Posts } from "../../components/Posts";
-import { loadPosts } from "../../utils/load-posts";
-import { Button } from "../../components/Button";
-import { TextInput } from "../../components/TextInput";
+import { Posts } from '../../components/Posts';
+import { loadPosts } from '../../utils/load-posts';
+import { Button } from '../../components/Button';
+import { TextInput } from '../../components/TextInput';
 
 export class Home extends Component {
   state = {
     posts: [],
     allPosts: [],
     page: 0,
-    postsPerPage: 50,
-    searchValue: "",
+    postsPerPage: 10,
+    searchValue: '',
   };
 
   async componentDidMount() {
@@ -59,8 +59,8 @@ export class Home extends Component {
       : posts;
 
     return (
-      <section className="container">
-        <div className="search-container">
+      <section className='container'>
+        <div className='search-container'>
           {!!searchValue && <h1>{searchValue}</h1>}
 
           <TextInput
@@ -70,10 +70,10 @@ export class Home extends Component {
         </div>
         {filteredPosts.length > 0 && <Posts posts={filteredPosts} />}
         {filteredPosts.length === 0 && <p>Não existem posts.</p>}
-        <div className="button-container">
+        <div className='button-container'>
           {!!searchValue && (
             <Button
-              text="Load more Posts"
+              text='Load more Posts'
               onClick={this.loadMorePosts}
               disabled={noMorePosts}
             />
